@@ -1,6 +1,4 @@
 import sys
-if 'streamlit' not in sys.modules:
-  !pip install streamlit
 import streamlit as st
 import pandas as pd
 import plotly.express as px
